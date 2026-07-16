@@ -10,9 +10,9 @@ ruta_documentacion: docs
 
 incluir:
   - docs/**/*.md
-  - *.cpp
-  - *.h
-  - *.jpg
+  - "*.cpp"
+  - "*.h"
+  - "*.jpg"
 
 excluir:
   - obj/**
