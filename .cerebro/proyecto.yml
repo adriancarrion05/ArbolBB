@@ -1,0 +1,22 @@
+id_proyecto: arboles-mdi
+nombre: Menu de Estructuras de Arboles (ABB y Graficos)
+
+stack:
+  - cpp
+  - winbgim
+  - graphics-h
+
+ruta_documentacion: docs
+
+incluir:
+  - docs/**/*.md
+  - *.cpp
+  - *.h
+  - *.jpg
+
+excluir:
+  - obj/**
+  - bin/**
+  - .vscode/**
+  - .idea/**
+  - Makefile
